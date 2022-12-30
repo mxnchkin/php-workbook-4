@@ -1,0 +1,36 @@
+<head>
+	<title>PHP File Upload</title>
+</head>
+
+<body onload="getScreenDetails();">
+
+	<h1>Test File Upload</h1>
+	
+	<p>Please enter your contact details:</p>
+	<form action="save_contact_details.php" method="post">
+		<table>
+			<tr>
+				<td align="right">Last name: </td>
+				<td><input size="20" type="text" maxlength="15" name="lastname"></td>
+			</tr>
+			<tr>
+				<td align="right">First name: </td>
+				<td><input size="20" type="text" maxlength="15" name="firstname"></td>
+			</tr>	
+			<tr>
+				<td align="right">Email Address: </td>
+				<td><input size="30" type="text" maxlength="30" name="emailaddress"></td>
+			</tr>	
+			<tr>
+				<td align="right">Phone Number: </td>
+				<td><input size="15" type="text" maxlength="15" name="phonenumber"></td>
+			</tr>	
+			<tr>
+				<td> </td>
+				<td colspan="2" align="left"><input type="submit" value="Submit"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+
+</html>
